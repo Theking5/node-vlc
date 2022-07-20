@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
 </head>
-<body>
 
-    <canvas width="1920" height="1080"></canvas>
+<body style="background-color:gray; text-align: center">
+    <h1>This is electron web application!</h1>
+
+    <canvas style="margin: auto; display: inline-block;"></canvas>
+
+    <button onclick="setDimensions(700, 400)">
+        Resize
+    </button>
+    <script>
+        function setDimensions(width, height) {
+            var can = document.getElementsByTagName("canvas")[0];
+
+            can.style.width = `${width}px`;
+            can.style.height = `${height}px`;
+            can.width = `${Math.floor(width * (1920 / width))}`;
+            can.height = `${Math.floor(height * (1080 / height))}`;
+        }
+
+    </script>
 
 </body>
+
 </html>

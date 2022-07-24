@@ -4,6 +4,12 @@
     <Filter Include="..">
       <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
     <Filter Include="C:">
       <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
     </Filter>
@@ -39,19 +45,17 @@
     <ClCompile Include="..\Main.cpp">
       <Filter>..</Filter>
     </ClCompile>
+    <ClCompile Include="..\Player.cpp">
+      <Filter>..</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Player.h">
+      <Filter>..</Filter>
+    </ClInclude>
     <ClCompile Include="C:\Users\David\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
       <Filter>C:\Users\David\AppData\Roaming\npm\node_modules\node-gyp\src</Filter>
     </ClCompile>
     <None Include="..\binding.gyp">
       <Filter>..</Filter>
     </None>
-    <ClCompile Include="..\Player.cpp">
-      <Filter>..</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Player.h">
-      <Filter>..</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

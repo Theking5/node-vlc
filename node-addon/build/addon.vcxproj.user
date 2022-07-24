@@ -5,4 +5,7 @@
     <LocalDebuggerCommandArguments>D:\electron-media-player\elec\electron\app\index.js</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
 </Project>

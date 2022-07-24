@@ -2,7 +2,7 @@ d:\node-addon\build\release\addon.lib
 d:\node-addon\build\release\addon.exp
 d:\node-addon\build\release\addon.ipdb
 d:\node-addon\build\release\addon.iobj
-d:\node-addon\build\release\obj\addon\hello.obj
+d:\node-addon\build\release\obj\addon\main.obj
 d:\node-addon\build\release\obj\addon\player.obj
 d:\node-addon\build\release\obj\addon\win_delay_load_hook.obj
 d:\node-addon\build\release\addon.node

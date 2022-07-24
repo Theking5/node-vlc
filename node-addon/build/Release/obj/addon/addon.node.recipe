@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\node-addon\build\Release\addon.node</FullPath>
+      <FullPath>D:\electron-media-player\node-addon\build\Release\addon.node</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
